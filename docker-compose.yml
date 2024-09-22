@@ -20,18 +20,18 @@ services:
     ports:
       - "8083:80"
     volumes:
-      - ./src1:/usr/share/nginx/html
+      - ./src3:/usr/share/nginx/html
 
   web4:
     image: my-nginx-container
     ports:
       - "8084:80"
     volumes:
-      - ./src2:/usr/share/nginx/html
+      - ./src4:/usr/share/nginx/html
 
   web5:
     image: my-nginx-container
     ports:
       - "8085:80"
     volumes:
-      - ./src1:/usr/share/nginx/html
+      - ./src5:/usr/share/nginx/html
